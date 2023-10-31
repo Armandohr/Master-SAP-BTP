@@ -10,7 +10,10 @@ CLASS zcl_upload_data_script_5277 DEFINITION
   PRIVATE SECTION.
 ENDCLASS.
 
-CLASS zcl_upload_data_script_5277 IMPLEMENTATION.
+
+
+CLASS ZCL_UPLOAD_DATA_SCRIPT_5277 IMPLEMENTATION.
+
 
   METHOD if_oo_adt_classrun~main.
 
@@ -213,5 +216,4 @@ CLASS zcl_upload_data_script_5277 IMPLEMENTATION.
     out->write( 'DONE!' ).
 
   ENDMETHOD.
-
 ENDCLASS.

@@ -11,7 +11,7 @@ ENDCLASS.
 
 
 
-CLASS zcl_abap_delete_tables_5277 IMPLEMENTATION.
+CLASS ZCL_ABAP_DELETE_TABLES_5277 IMPLEMENTATION.
 
 
   METHOD if_oo_adt_classrun~main.
@@ -27,5 +27,4 @@ CLASS zcl_abap_delete_tables_5277 IMPLEMENTATION.
     endif.
 
   ENDMETHOD.
-
 ENDCLASS.
